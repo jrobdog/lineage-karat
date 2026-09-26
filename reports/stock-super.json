@@ -1,0 +1,246 @@
+{
+  "source": "stock/reference-super.img",
+  "image_size": 1625292800,
+  "metadata_version": [
+    10,
+    0
+  ],
+  "metadata_slots": 2,
+  "metadata_max_size": 65536,
+  "logical_block_size": 4096,
+  "block_device": "super",
+  "alignment": 512,
+  "alignment_offset": 0,
+  "groups": [
+    {
+      "name": "default",
+      "flags": 0,
+      "maximum_size": 0
+    },
+    {
+      "name": "main",
+      "flags": 0,
+      "maximum_size": 1623195648
+    }
+  ],
+  "partitions": [
+    {
+      "name": "product",
+      "attributes": 1,
+      "group": "main",
+      "size": 17121280,
+      "extents": [
+        {
+          "sectors": 27032,
+          "kind": 0,
+          "physical_sector": 2048
+        },
+        {
+          "sectors": 344,
+          "kind": 0,
+          "physical_sector": 2725576
+        },
+        {
+          "sectors": 4424,
+          "kind": 0,
+          "physical_sector": 2758440
+        },
+        {
+          "sectors": 320,
+          "kind": 0,
+          "physical_sector": 2782672
+        },
+        {
+          "sectors": 1088,
+          "kind": 0,
+          "physical_sector": 2799400
+        },
+        {
+          "sectors": 200,
+          "kind": 0,
+          "physical_sector": 2810792
+        },
+        {
+          "sectors": 32,
+          "kind": 0,
+          "physical_sector": 2674928
+        }
+      ],
+      "sha256": "843f11407ddd814ccba9a7b12a30a559fd73ebc6317306feb308273453a7c311"
+    },
+    {
+      "name": "vendor",
+      "attributes": 1,
+      "group": "main",
+      "size": 135172096,
+      "extents": [
+        {
+          "sectors": 238472,
+          "kind": 0,
+          "physical_sector": 30720
+        },
+        {
+          "sectors": 56,
+          "kind": 0,
+          "physical_sector": 2725520
+        },
+        {
+          "sectors": 56,
+          "kind": 0,
+          "physical_sector": 2758384
+        },
+        {
+          "sectors": 56,
+          "kind": 0,
+          "physical_sector": 2782616
+        },
+        {
+          "sectors": 128,
+          "kind": 0,
+          "physical_sector": 2799176
+        },
+        {
+          "sectors": 16,
+          "kind": 0,
+          "physical_sector": 2859968
+        },
+        {
+          "sectors": 8,
+          "kind": 0,
+          "physical_sector": 2810992
+        },
+        {
+          "sectors": 80,
+          "kind": 0,
+          "physical_sector": 2830624
+        },
+        {
+          "sectors": 24,
+          "kind": 0,
+          "physical_sector": 2828824
+        },
+        {
+          "sectors": 3296,
+          "kind": 0,
+          "physical_sector": 2825528
+        },
+        {
+          "sectors": 1776,
+          "kind": 0,
+          "physical_sector": 2828848
+        },
+        {
+          "sectors": 9064,
+          "kind": 0,
+          "physical_sector": 2830704
+        },
+        {
+          "sectors": 6832,
+          "kind": 0,
+          "physical_sector": 2818696
+        },
+        {
+          "sectors": 3480,
+          "kind": 0,
+          "physical_sector": 2839768
+        },
+        {
+          "sectors": 16,
+          "kind": 0,
+          "physical_sector": 2876824
+        },
+        {
+          "sectors": 8,
+          "kind": 0,
+          "physical_sector": 2879496
+        },
+        {
+          "sectors": 368,
+          "kind": 0,
+          "physical_sector": 2697600
+        },
+        {
+          "sectors": 72,
+          "kind": 0,
+          "physical_sector": 2667496
+        },
+        {
+          "sectors": 32,
+          "kind": 0,
+          "physical_sector": 2684368
+        },
+        {
+          "sectors": 32,
+          "kind": 0,
+          "physical_sector": 2681552
+        },
+        {
+          "sectors": 136,
+          "kind": 0,
+          "physical_sector": 2738872
+        }
+      ],
+      "sha256": "00da28bc3307991cdde53cf21cb6419bab4c97992fb6eb895aa1976a488594d1"
+    },
+    {
+      "name": "system",
+      "attributes": 1,
+      "group": "main",
+      "size": 1264836608,
+      "extents": [
+        {
+          "sectors": 2373864,
+          "kind": 0,
+          "physical_sector": 270336
+        },
+        {
+          "sectors": 1640,
+          "kind": 0,
+          "physical_sector": 29080
+        },
+        {
+          "sectors": 1144,
+          "kind": 0,
+          "physical_sector": 269192
+        },
+        {
+          "sectors": 23296,
+          "kind": 0,
+          "physical_sector": 2644200
+        },
+        {
+          "sectors": 7360,
+          "kind": 0,
+          "physical_sector": 2667568
+        },
+        {
+          "sectors": 6592,
+          "kind": 0,
+          "physical_sector": 2674960
+        },
+        {
+          "sectors": 2784,
+          "kind": 0,
+          "physical_sector": 2681584
+        },
+        {
+          "sectors": 13200,
+          "kind": 0,
+          "physical_sector": 2684400
+        },
+        {
+          "sectors": 27552,
+          "kind": 0,
+          "physical_sector": 2697968
+        },
+        {
+          "sectors": 12952,
+          "kind": 0,
+          "physical_sector": 2725920
+        }
+      ],
+      "sha256": "037dd65feb92f4ceab72b18feb8356ceda8434407ad664978ff76c6cd04f6639"
+    }
+  ],
+  "checksums_verified": true
+}

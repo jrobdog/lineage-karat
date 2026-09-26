@@ -1,0 +1,21 @@
+{
+  "unpack_bootimg": {
+    "url": "https://android.googlesource.com/platform/system/tools/mkbootimg/+/refs/tags/android-13.0.0_r1/unpack_bootimg.py",
+    "sha256": "50ef727dc41402430cf68933eaf5b7c7c71d91d2cc3cf908b2ea8e6e1faa4595"
+  },
+  "avbtool": {
+    "source_checkout_revision": "ba9d77598670f4e221490aa0e7aa9b27564cf2fb",
+    "aosp_repository": "platform/external/avb",
+    "sha256": "5f1883a0834e8f8458d22104ce6e5becb7159ee0262fbda7d3d0fd0441de4720"
+  },
+  "mkbootimg": {
+    "source_checkout_revision": "40a19c4c5ffe8b86c6c61318c8aa4ffe35d6e7ad",
+    "aosp_repository": "platform/system/tools/mkbootimg",
+    "sha256": "021f2d960b2d3158a9df2ff6255f1140cebb09bc09f4886373438f2919559cd9"
+  },
+  "gki_certificate_helper": {
+    "source_checkout_revision": "40a19c4c5ffe8b86c6c61318c8aa4ffe35d6e7ad",
+    "aosp_repository": "platform/system/tools/mkbootimg",
+    "sha256": "6ee0b2e3c3323ae8fccf326bf9a526451eac977005efabf7d129b3063bcfb945"
+  }
+}

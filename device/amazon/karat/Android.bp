@@ -1,0 +1,56 @@
+// SPDX-License-Identifier: Apache-2.0
+soong_namespace {}
+
+python_binary_host {
+    name: "karat_compat_mapping_tool",
+    main: "compat_mapping.py",
+    srcs: ["compat_mapping.py"],
+}
+
+// Stock vendor expects version 30.0.0 / attributes ending _30_0_0.
+// Generate aliases from the platform's actual API-30 compatibility mappings.
+genrule {
+    name: "karat_plat_mapping",
+    tools: ["karat_compat_mapping_tool"],
+    srcs: [":plat_30.0.cil"],
+    cmd: "$(location karat_compat_mapping_tool) --input $(in) --output $(out)",
+    out: ["plat-30.0.0.cil"],
+}
+
+prebuilt_etc {
+    name: "karat_plat_30.0.0.cil",
+    src: ":karat_plat_mapping",
+    filename: "30.0.0.cil",
+    sub_dir: "selinux/mapping",
+}
+
+genrule {
+    name: "karat_plat_compat",
+    tools: ["karat_compat_mapping_tool"],
+    srcs: [":30.0.compat.cil"],
+    cmd: "$(location karat_compat_mapping_tool) --input $(in) --output $(out)",
+    out: ["plat-30.0.0.compat.cil"],
+}
+
+prebuilt_etc {
+    name: "karat_plat_30.0.0.compat.cil",
+    src: ":karat_plat_compat",
+    filename: "30.0.0.compat.cil",
+    sub_dir: "selinux/mapping",
+}
+
+genrule {
+    name: "karat_system_ext_compat",
+    tools: ["karat_compat_mapping_tool"],
+    srcs: [":system_ext_30.0.compat.cil"],
+    cmd: "$(location karat_compat_mapping_tool) --input $(in) --output $(out)",
+    out: ["system_ext-30.0.0.compat.cil"],
+}
+
+prebuilt_etc {
+    name: "karat_system_ext_30.0.0.compat.cil",
+    src: ":karat_system_ext_compat",
+    filename: "30.0.0.compat.cil",
+    sub_dir: "selinux/mapping",
+    system_ext_specific: true,
+}

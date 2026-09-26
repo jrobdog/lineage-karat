@@ -1,0 +1,177 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Exact optional vendor extensions from RS8182.3811N. This declares their
+     presence for VINTF; it does not implement or prove framework integration. -->
+<compatibility-matrix version="1.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.amazonthermal</name>
+        <version>1.0</version>
+        <interface>
+            <name>IAmazonThermal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.audio</name>
+        <version>6.0</version>
+        <interface>
+            <name>IDevicesFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.avls</name>
+        <version>1.0</version>
+        <interface>
+            <name>IAvlsDevicesFactory</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IAvlsFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.avsync</name>
+        <version>1.0</version>
+        <interface>
+            <name>IAVSyncBridgeFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.connectivity</name>
+        <version>1.0</version>
+        <interface>
+            <name>IBridgedController</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IHostapdController</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IHostapdEvent</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IWifiCsa</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IWifiMiracastConcurrency</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IWifiThermalThrottle</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.connectivity.connectivityhal</name>
+        <version>1.0</version>
+        <interface>
+            <name>IConnectivityHal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.connectivity.networkpower</name>
+        <version>1.0</version>
+        <interface>
+            <name>INetworkPower</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.drmprov</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDrmprov</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.fireosdha</name>
+        <version>2.0</version>
+        <interface>
+            <name>IFireOsDha</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.hdcp</name>
+        <version>1.0</version>
+        <interface>
+            <name>IAmazonHdcp</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.hdmitxinfo</name>
+        <version>1.0</version>
+        <interface>
+            <name>IHdmiTxInfo</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.idme</name>
+        <version>1.0</version>
+        <interface>
+            <name>IIdme</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.mediametrics</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMediaMetrics</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>fireos.hardware.starboard</name>
+        <version>1.0</version>
+        <interface>
+            <name>IStarboard</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.ms12</name>
+        <version>1.2</version>
+        <interface>
+            <name>IMs12</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.mediatek.hardware.hdmi</name>
+        <version>1.1</version>
+        <interface>
+            <name>IMtkHdmiService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.mediatek.hardware.keymanage</name>
+        <version>1.0</version>
+        <interface>
+            <name>IKeymanage</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.mediatek.hardware.mtkpower</name>
+        <version>1.1</version>
+        <interface>
+            <name>IMtkPerf</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IMtkPower</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

@@ -1,0 +1,22 @@
+{
+  "device": "karat",
+  "build": "0032548774788",
+  "scope": "Reference hashes of the original lab firmware. These identify inputs; no firmware is distributed. Later unlocked and corrected artifacts use different explicit hashes in individual tools.",
+  "files": [
+    {
+      "file": "boot.img",
+      "bytes": 41943040,
+      "sha256": "53aa1c58df16e36697e2b37f119cdfbbe131b2d5ccacb103821ee9ba457b9603"
+    },
+    {
+      "file": "dtbo.img",
+      "bytes": 1048576,
+      "sha256": "c6eeecd35198574db3eaff957cfa7727a43fa9563b40916d5760c9a18aa5d323"
+    },
+    {
+      "file": "super.img",
+      "bytes": 1625292800,
+      "sha256": "d9db46f50ac284bf947dd0704bad5d51711a8575f5a038f8620ca76bc4cad19f"
+    }
+  ]
+}

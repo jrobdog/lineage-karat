@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-09-26",
+  "scope": "Summary of one privately tested development device; raw logs and identifying data excluded",
+  "device_model": "Fire TV Stick 4K Max second generation (2023)",
+  "codename": "karat",
+  "os": "Unofficial LineageOS 20 / Android 13",
+  "architecture": "ARM32 userspace, Binder64, original ARM64 kernel",
+  "observed": {
+    "complete_android_boot": true,
+    "encrypted_userdata": true,
+    "selinux_enforcing": true,
+    "hdmi_picture_owner_confirmed": true,
+    "hdmi_audio_owner_confirmed": true,
+    "audio_policy_and_volume_survive_restart": true,
+    "cec_arrows_and_ok_owner_confirmed": true,
+    "cec_automatic_startup_request_after_restart": true,
+    "cec_remote_after_automatic_restart_owner_confirmed": true,
+    "wifi_reconnects_after_restart": true,
+    "adb_authentication_challenge_verified": true,
+    "rooted_debugging_disabled_at_end_of_test": true
+  },
+  "not_established": [
+    "Full Android 13 kernel and VINTF compatibility",
+    "Rebuilt kernel boot",
+    "Production signing or hardened release security",
+    "4K hardware decoding and complete codec coverage",
+    "Certified streaming DRM",
+    "ARC/eARC audio-system compatibility",
+    "TV standby, cold TV power and HDMI hotplug recovery",
+    "CEC Back, held-key repeat and player transport behavior",
+    "Bluetooth remote pairing",
+    "Compatibility with other devices or television models"
+  ],
+  "public_source_snapshot": {
+    "complete_android_rebuild_after_latest_source_changes": false,
+    "firmware_or_apk_distributed": false,
+    "general_installer_provided": false
+  }
+}

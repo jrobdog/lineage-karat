@@ -1,0 +1,20 @@
+Original device configuration, preparation tools, the HDMI startup helper and
+documentation in this repository are provided under the Apache License 2.0.
+
+tools/aosp_unpack_bootimg.py is unmodified Android Open Source Project code from
+tag android-13.0.0_r1. Its upstream copyright and Apache 2.0 header are retained.
+Source: https://android.googlesource.com/platform/system/tools/mkbootimg/+/refs/tags/android-13.0.0_r1/unpack_bootimg.py
+SHA-256: 50ef727dc41402430cf68933eaf5b7c7c71d91d2cc3cf908b2ea8e6e1faa4595
+
+patches/frameworks_base-tv-compat-metadata.patch modifies the Apache-2.0
+LineageOS/AOSP frameworks/base Android.bp by removing one TV-inapplicable
+TeleService metadata dependency. Upstream copyright remains with its owners.
+The patch's purpose and scope are documented in patches/README.md.
+
+The Android build inherits LineageOS/AOSP code from separate upstream source
+checkouts. Each upstream repository retains its own licensing terms. No Linux
+kernel source or kernel binary is included in this source release.
+
+Proprietary Amazon/MediaTek/Dolby firmware is a separately supplied local input.
+No rights to that firmware, or to third-party application binaries or account
+configuration, are granted by this repository's license.
